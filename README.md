@@ -45,3 +45,10 @@
  - SWB—>通道8—>锁定（Arm）
  - SWC—>通道9—>飞行模式 从上至下依次是自稳（Stabilized） 定高（Altitude） 定点（Position）
  - SWD—>通道10—>OffBoard
+
+# 参数设置
+打开QGC->Vehicle Setup->参数
+## 光流参数
+
+ - `EKF2_AID_MASK`设置为3（使能光流与GPS，如果可用）
+ - `SENS_EN_MB12XX`设置为1（使能声呐，如果可用）
